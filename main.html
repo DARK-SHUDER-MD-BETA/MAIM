@@ -21,15 +21,19 @@
       text-align: center;
   }
 
-  h1 {
-      font-size: 200%;
-      color: #ffffff;
-  }
+      .button-container {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      colour:white;
+    }
 
-  h3 {
-      font-weight: 200;
-      color: #ffffff;
-  }
+    h3 {
+      margin-top: -40px;
+      opacity: 0;
+      animation: fadeIn 5s forwards;
+      colour:yellow;
 
   h1, h3 {
       letter-spacing: 0.05em;
@@ -324,16 +328,10 @@
   </style>
   </head>
   <body>
-    <div id="main">
-      <br><br>
-      <h1 class="h">
-        <centre>
-        <span>Select <span>
-          <span>session <span>
-                <span>type <span>
-                </centre>
-      </span></span></span></span></span></span></h1>
-      <h3 class="h">
+   <div class="button-container">
+    <h3>CONNECT THIS BOT</h3><br><br><br>
+    <div></div>
+       <h3 class="h">
         <span><span>
       </span></span></h3>
         <input hidden type="text" name="value" value="queen-izumi-md">
